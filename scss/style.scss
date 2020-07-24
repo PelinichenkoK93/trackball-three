@@ -1,0 +1,36 @@
+@import "includes/settings";
+
+.about {
+    margin: 0 auto;
+    background: linear-gradient(50deg, #cc97a4, $blue);
+    max-width: 1000px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+
+    &__left {
+        height: 200px;
+        background: linear-gradient(45deg, $blue, #2c0f25);
+        z-index: 1000;
+        border-radius: 15px;
+        border: 1px solid black;
+    }
+
+    &__right {
+        height: 200px;
+        background: linear-gradient(60deg, #60b115, #0592d3);
+        z-index: 1000;
+        border-radius: 15px;
+        border: 1px solid green;
+        color: hotpink;
+    }   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body, .webgl {
+    height: 100%;
+}
